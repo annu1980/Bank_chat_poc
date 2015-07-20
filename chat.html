@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Chat</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/amelia-bootstrap.min.css">
+  <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="page">
+    <header class="container">
+      <div id="menu" class="navbar navbar-fixed-top">
+        <div class="navbar-header">
+          <button class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="glyphicon glyphicon-align-justify"></span>
+          </button>
+          <div id="logo">
+            <a class="navbar-brand" href="#">
+                <img src="images/BankOfMe.png" alt="Bank Of Me">
+            </a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav">
+              <a href="#">
+                <span class="glyphicon glyphicon-phone"></span> 
+              </a>
+            </li>
+            <li class="nav">
+              <a href="#">
+                <span class="glyphicon glyphicon-user"></span> 
+              </a>
+            </li>
+            <li class="nav active">
+              <a href="#">
+                <span class="glyphicon glyphicon-search"></span> 
+              </a>
+            </li>
+            <li class="nav">
+              <a href="#">
+                <span class="glyphicon glyphicon-pencil"></span> 
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="body" class="container-fluid">
+        
+  <div class="btn-group btn-group-lg label-container">
+    <lable class="btn btn-success btn-width-st"><br/>&nbsp;</lable>
+    <lable class="btn btn-success btn-width"><span class="glyphicon glyphicon-home"></span><br/>Home</lable>
+    <lable class="btn btn-success btn-width"><span class="glyphicon glyphicon-link"></span> <br/>Connect</lable>
+    <lable class="btn btn-success btn-width"><span class="glyphicon glyphicon-picture"></span> <br/>Discover</lable>
+    <lable class="btn btn-success btn-width"><span class="glyphicon glyphicon-user"></span><br/>Me</lable>
+    <lable class="btn btn-success btn-width-last"><a href="#"><br/>&nbsp;</a></lable>
+  </div>
+
+  
+<!-- Panel start from here -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+        <label class="lblChat"><span class="glyphicon glyphicon-comment"></span> Chat</label>
+        <button class="btn btn-default lblVideo" type="button"><span class="glyphicon glyphicon-facetime-video"></span> Video Call</button>
+    </div>   
+        <div class="panel-body">      
+          <div class="row">
+              <div class="chatAgent">
+                    <img class="chatImg" src="images/agent_chat.png" alt="Chat Agent">
+                    <label class="timeTxt"><span class="glyphicon glyphicon-time"></span> 15 min ago</label>
+                    <p><strong>Joe</strong></p>
+                    <p>Hi I'm joe and I'll be helping you open your new account today.</br> To begin with, we'll need your registered student number from UCAS please - do you have this to hand?</p>
+              </div>
+              <div class="custChat">
+                    <label class="custTimetxt"><span class="glyphicon glyphicon-time"></span> 13 min ago</label>
+                    <span class="custName"><strong>You</strong><img class="customerImg" src="images/customer_chat.png" alt="Customer"></span>
+                    <p>No probs -  my student number is 4389202663. My email address is ellie@mail.com</p>
+              </div>
+               <!-- form control starts from here -->
+              <div class="formControl">
+              <form class="form-inline" role="form">
+                  <div class="form">
+                    <div class="col-md-2" style="width:20% border:1px solid red;">
+                     <img class="formIcons" src="images/formImg.jpg" alt="Customer">
+                    </div>
+                    <div class="col-md-6">                       
+                        <input type="text" class="form-control" id="email" placeholder="Type your message here...."/>                        
+                      </div>
+                       <div class="col-md-2">
+                        <button type="button" class="btn btn-info btn-lg">SEND MESSAGE</button>
+                       </div>
+                  </div>                  
+              </form>
+              <!-- form control end here -->
+          </div>
+        </div>
+  </div>
+</div>
+<!-- Panel end here --> 
+  </section>   
+  <script src="js/jquery-2.0.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

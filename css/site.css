@@ -1,0 +1,63 @@
+﻿body {
+  margin-top: 70px;
+  background-color:#FFF!important;
+  color:#777;
+}
+a{
+  color:#000;
+}
+.container {
+  margin: 0!important;
+  width:100%!important;
+}
+
+.navbar-default{
+  background-color:#469CEB!important;
+  border-color:#469CEB!important;
+}
+.table-responsive > .table
+{
+  background-color: transparent;
+}
+.container-fluid {margin-left: 5px;}
+.glyphicon {margin-right:8px;}
+.panel-default{ border: 1px solid #E3EDF9; margin: 19px; background-color: #F0F8FF; -webkit-border-radius:12px;}
+.panel-default>.panel-heading { background-color: #52B3A6; border-bottom-color: none; -webkit-border-radius:11px;}
+.btn-group .btn-group-lg { border:none!important;}
+.btn{ border-right:1px solid #fff!important;}
+.label-container { width:100%; color: #fff; border:none!important; margin-left:0px; margin-bottom:20px;}
+.btn-width{ width: 20%; border-right:1px solid #fff; font-size:15px!important; line-height:24px!important;}
+.btn-width-st { margin-left:12px; width:12%; line-height:24px!important;border-right:1px solid #fff;}
+.btn-width-last { width:8%; line-height:24px!important;}
+.btn-width a{color:#fff!important;}
+.btn-success {background-color:#469CEB; border:1px solid #fff;}
+.btn-success:hover {background-color: #469CEB; border-color:#469CEB; border-right:1px solid #fff;border-left:1px solid #fff; text-decoration: none;}
+.lblChat  { color:#fff!important; font-size:15px;margin: 25px 0;}
+.lblVideo { margin: 16px 0; color:#fff;}
+.btn-default { background-color: #52B3A6; float:right; border-color:#95D1CA; padding: 10px;}
+.btn-default:hover{ background-color: #52B3A6; border-color:#95D1CA; color:#fff;}
+
+/*Chat content css starts from here */
+.chatAgent {border-bottom: 1px dotted #CFCDD0; margin:10px 15px;}
+.chatAgent p{margin-bottom:2px;}
+.chatImg {float:left; margin-right:10px; border-radius:45%;}
+.timeTxt {color:#CFCDD0; float:right;}
+
+.customerChat{border-bottom: 1px dotted #CFCDD0; margin:10px 15px;}
+.custChat{border-bottom: 1px dotted #CFCDD0; margin:15px; padding-bottom:9px;}
+.custTimetxt{color:#CFCDD0;}
+.custName{float:right;}
+.customerImg{float:right; border-radius:45%;}
+/*Chat content css end here */
+.formControl{border-top:1px solid #E3EDF9;}
+.form-inline{background-color: #F6F6F6}
+.formIcons{width:112px; height:60px; margin:-5px 0 0 56px}
+
+.btn-info,.btn-info:hover  { background-color: #E36199; font-size: 12px; border:1px solid #E36199;}
+.col-md-2, .col-md-3{ margin-top:20px;}
+.col-md-6{margin-top:25px;}
+
+/* landing page css starts from here */
+
+.bg-img { background-image: url("../images/bank3.jpg"); background-color: #cccccc; }
+/* landing page css ends here */
